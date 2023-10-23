@@ -1,0 +1,76 @@
+body {
+    background-color: #0078D7;
+    font-family: "Segoe UI";
+    margin: 0;
+    border: 0;
+    padding: 0;
+    cursor: none; /* This hides the mouse cursor */
+    user-select: none; /* Disable text selection */
+}
+
+p {
+    text-align: center;
+    color: #fff; /* Text color */
+}
+
+.error {
+    font-size: 40px;
+    margin-left:10vw;
+    font-weight: 300;
+    width: 940px;
+    text-align: justify;
+}
+
+.perc {
+    font-size: 40px;
+    margin-left:10vw;
+    font-weight: 300;
+    width: 940px;
+    text-align: justify;
+}
+
+.sad_face {
+    margin-left:9.5vw;
+    color: #fff; /* Text color */
+    font-size: 200px;
+    font-weight: 300;
+    margin-top: 3.5vw;
+    margin-bottom: 0;
+}
+
+.info {
+    margin-left:17vw;
+    font-size: 19.8px;
+    font-weight: 300;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.code {
+    margin-top: 10px;
+    margin-left:17vw;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.image-container {
+    float: left;
+    margin-left: 10vw;
+    margin-top: -120px;
+    border-color: #fff;
+    background-color: white; /* Set the background of the image to white */
+}
+
+.image-container img {
+    max-width: 100px; /* Ensure the image fits within its container */
+}
+
+.background-div {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; /* Place the <div> behind other content */
+}
