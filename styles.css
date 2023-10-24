@@ -38,20 +38,9 @@ p {
     margin-bottom: 0;
 }
 
-.below {
-    position: static;
-    margin-left: 17vw;
-    width: 900px;
-}
-
-@media (max-width: 1200px) {
-    .below {
-        margin-left: 24vw; /* Change margin to 0 when screen width is 700px or smaller */
-    }
-}
-
 .info {
     font-size: 19.8px;
+    margin-left: 17vw;
     font-weight: 300;
     text-align: justify;
     margin-bottom: 30px;
@@ -59,6 +48,7 @@ p {
 
 .code, .code2 {
     margin-top: 0.625em;
+    margin-left: 17vw;
     font-size: 0.9375em;
     font-weight: 300;
     text-align: justify;
