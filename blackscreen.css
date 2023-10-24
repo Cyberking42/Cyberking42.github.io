@@ -1,0 +1,28 @@
+body {
+    background-color: #0078D7;
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    cursor: none; /* This hides the mouse cursor */
+    user-select: none; /* Disable text selection */
+}
+
+.black-int-div {
+    position: fixed;
+    background-color: #000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Place the <div> behind other content */
+}
+
+.background-div {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; /* Place the <div> behind other content */
+}
