@@ -1,6 +1,6 @@
 body {
     background-color: #0078D7;
-    font-family: "Segoe UI";
+    font-family: "Segoe UI", Arial, sans-serif;
     margin: 0;
     border: 0;
     padding: 0;
@@ -14,56 +14,66 @@ p {
 }
 
 .error {
-    font-size: 40px;
-    margin-left:10vw;
+    font-size: 2.5em;
+    margin-left:10%;
     font-weight: 300;
-    width: 940px;
+    width: 24em;
     text-align: justify;
 }
 
 .perc {
-    font-size: 40px;
-    margin-left:10vw;
+    font-size: 2.5em;
+    margin-left:10%;
     font-weight: 300;
-    width: 940px;
+    width: 24em;
     text-align: justify;
 }
 
 .sad_face {
-    margin-left:9.5vw;
+    margin-left:9.5%;
     color: #fff; /* Text color */
-    font-size: 200px;
+    font-size: 12.5em;
     font-weight: 300;
-    margin-top: 3.5vw;
+    margin-top: 3.5%;
     margin-bottom: 0;
 }
 
+.below {
+    position: static;
+    margin-left: 17vw;
+    width: 900px;
+}
+
+@media (max-width: 1200px) {
+    .below {
+        margin-left: 24vw; /* Change margin to 0 when screen width is 700px or smaller */
+    }
+}
+
 .info {
-    margin-left:17vw;
     font-size: 19.8px;
     font-weight: 300;
     text-align: justify;
     margin-bottom: 30px;
 }
 
-.code {
-    margin-top: 10px;
-    margin-left:17vw;
-    font-size: 15px;
+.code, .code2 {
+    margin-top: 0.625em;
+    font-size: 0.9375em;
     font-weight: 300;
     text-align: justify;
 }
 
 .image-container {
-    float: left;
-    margin-left: 10vw;
-    margin-top: -120px;
+    margin-left: 10%;
+    margin-top: 0.4em;
     border-color: #fff;
     background-color: white; /* Set the background of the image to white */
+    position: absolute;
 }
 
 .image-container img {
-    max-width: 100px; /* Ensure the image fits within its container */
+    max-width: 6.25em; /* Ensure the image fits within its container */
 }
 
 .background-div {
@@ -73,4 +83,24 @@ p {
     width: 100%;
     height: 100%;
     z-index: 1; /* Place the <div> behind other content */
+}
+
+.int-div {
+    position: fixed;
+    background-color: #0078D7;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Place the <div> behind other content */
+}
+
+.black-int-div {
+    position: fixed;
+    background-color: #000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Place the <div> behind other content */
 }
