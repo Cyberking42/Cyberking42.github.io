@@ -20,3 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
         requestFullscreen();
     });
 });
+
+document.addEventListener('contextmenu', function(event) {
+    event.preventDefault();
+});

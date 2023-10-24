@@ -46,3 +46,7 @@ function loadBar() {
 
 // Start the loading process
 loadBar();
+
+document.addEventListener('contextmenu', function(event) {
+    event.preventDefault();
+});
