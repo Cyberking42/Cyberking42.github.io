@@ -6,6 +6,16 @@ body {
     padding: 0;
     cursor: none; /* This hides the mouse cursor */
     user-select: none; /* Disable text selection */
+    scrollbar-width: none; /* Hide the scrollbar for Firefox */
+}
+
+::-webkit-scrollbar {
+  width: 0rem;
+  display: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: transparent;
 }
 
 .black-int-div {
