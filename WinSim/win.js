@@ -31,6 +31,6 @@ setInterval(updateTime, 1000);
 
 // Prevent the context menu
 document.addEventListener('contextmenu', function(event) {
-  //event.preventDefault();
+    event.preventDefault();
 });
 
