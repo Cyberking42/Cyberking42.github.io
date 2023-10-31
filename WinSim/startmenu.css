@@ -1,0 +1,170 @@
+/*Start Menu*/
+
+.startmenu {
+    position: absolute;
+    background-color: rgba(35, 35, 35, 0.9);
+    width: 648px;
+    height: 640px;
+    bottom: 0;
+    margin-bottom: 40px;
+    display: flex;
+    z-index: 1;
+    display: none;
+}
+
+.bigapps {
+    color: white;
+    flex: 1;
+    font-size: 12px;
+    font-weight: 300;
+    width: 100%;
+}
+
+.category {
+    width: 100%;
+    margin-top: 20px;
+    height: 30px;
+}
+
+.bigapp {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: solid 2.5px rgba(255, 255, 255, 0);
+}
+
+.bigapp:hover {
+    border: solid 2.5px gray;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.bigapp:active {
+    border: solid 2.5px white;
+    background-color: rgba(255, 255, 255, 0.3);
+} 
+
+.bigapp img {
+    width: 32px;
+    margin-bottom: 18%;
+}
+
+.bigapp p {
+    margin-bottom: 5px;
+}
+
+.sidebar {
+    width: 48px;
+    height: 100%;
+    margin-right: 12px;
+}
+
+.applist {
+    width: 259px;
+    margin-right: 12px;
+    padding-top: 8px;
+}
+
+.letter,.app {
+    width: 95%;
+    height: 35px;
+    align-items: center;
+    display: flex;
+    padding-left: 3.5px;
+    color: white;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.letter p {
+    margin-left: 6.5px;
+}
+
+.app img {
+    margin-right: 12px;
+    margin-left: 2.5px;
+}
+
+.textdiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.toptext {
+    font-size: 12.5px;
+}
+
+.bottomtext {
+    color: #A7A8A9;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.letter:hover,.app:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.letter:active,.app:active {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+.sidebar div {
+    height: 46px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    transition: border 0.5s ease;
+}
+
+.sidebar div:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: border 0s ease;
+}
+
+.sidebar div:active {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.lines {
+    margin-bottom: 304px;
+    background: url("images/lines.png") no-repeat center center;
+    background-size: 16px;
+}
+
+.user {
+    background: url("images/acc.png") no-repeat center center;
+    background-size: 20px;
+}
+
+.documents {
+    background: url("images/file.png") no-repeat center center;
+    background-size: 13px;
+}
+
+.images {
+    background: url("images/image.png") no-repeat center center;
+    background-size: 16px;
+}
+
+.file-explorer {
+    background: url("images/explorer.png") no-repeat center center;
+    background-size: 16px;
+}
+
+.settings {
+    background: url("images/setting.png") no-repeat center center;
+    background-size: 16px;
+}
+
+.onoff {
+    background: url("images/Restart.png") no-repeat center center;
+    background-size: 18px;
+}
+
+
+
+/*Start Menu*/

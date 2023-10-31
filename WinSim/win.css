@@ -6,6 +6,7 @@ body {
     user-select: none; /* Disable text selection */
     scrollbar-width: none; /* Hide the scrollbar for Firefox */
     font-family: "Segoe UI", Arial, sans-serif;
+    overflow: hidden;
 }
 
 /* Reset some default styles */

@@ -4,11 +4,41 @@
     <meta charset="UTF-8">
     <title>Windows Simulator - by Cyberking42</title>
     <link rel="stylesheet" type="text/css" href="win.css">
+    <link rel="stylesheet" type="text/css" href="startmenu.css">
 </head>
 <body>
     <div class="frame">
         <div class="desktop" id="desktop">
             <div id="resizable-div"></div>
+            <div class="startmenu">
+                <div class="sidebar">
+                    <div class="lines"></div>
+                    <div class="user"></div>
+                    <div class="documents"></div>
+                    <div class="images"></div>
+                    <div class="file-explorer"></div>
+                    <div class="settings"></div>
+                    <div class="onoff"></div>
+                </div>
+                <div class="applist">
+
+                    <div class="letter"><p>E</p></div>
+                    <div class="app"><img src="apps/einstellungapp.png"><div class="textdiv"><p class="toptext">Einstellungen</p><p class="bottomtext">System</p></div></div>
+
+                    <div class="letter"><p>M</p></div>
+                    <div class="app"><img src="apps/msedgeapp.png"><div class="textdiv"><p class="toptext">Microsoft Edge</p></div></div>
+
+                    <div class="letter"><p>O</p></div>
+                    <div class="app"><img src="apps/onedriveapp.png"><div class="textdiv"><p class="toptext">OneDrive</p><p class="bottomtext">System</p></div></div>
+                    
+                    <div class="letter"><p>W</p></div>
+                    <div class="app"><img src="apps/winsecapp.png"><div class="textdiv"><p class="toptext">Windows Sicherheit</p><p class="bottomtext">System</p></div></div>
+                </div>
+                <div class="bigapps">
+                    <div class="category">Produktivität</div>
+                    <div class="bigapp"><img src="apps/bigmsedgeapp.png"><p>Microsoft Edge</p></div>
+                </div>
+            </div>
         </div>
         <div class="taskbar">
             <div class="homebutton">
@@ -46,5 +76,6 @@
     </div>
     <script src="win.js"></script>
     <script src="draggable.js"></script>
+    <script src="startmenu.js"></script>
 </body>
 </html>
