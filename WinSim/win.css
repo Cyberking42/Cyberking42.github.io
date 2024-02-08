@@ -296,6 +296,7 @@ p {
 .searchbox::placeholder {
     color: #2B2B2B;
     font-size: 15px;
+    letter-spacing: -0.125px;
 }
 
 .searchbox:hover {
